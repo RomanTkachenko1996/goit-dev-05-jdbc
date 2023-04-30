@@ -1,0 +1,10 @@
+{
+  "dbURL": "jdbc:h2:/Users/romantkachenko/Desktop/goit-dev/04/jdbc/test",
+  "initDbSql": "/Users/romantkachenko/Desktop/goit-dev/04/jdbc/src/main/java/com/goit/feature/sql/init_db.sql",
+  "populateDbSql": "/Users/romantkachenko/Desktop/goit-dev/04/jdbc/src/main/java/com/goit/feature/sql/populate_db.sql",
+  "findMaxSalaryWorkerSql": "/Users/romantkachenko/Desktop/goit-dev/04/jdbc/src/main/java/com/goit/feature/sql/find_max_salary_worker.sql",
+  "findYoungestEldestWorkersSql": "/Users/romantkachenko/Desktop/goit-dev/04/jdbc/src/main/java/com/goit/feature/sql/find_youngest_eldest_workers.sql",
+  "findMaxProjectsClientSql": "/Users/romantkachenko/Desktop/goit-dev/04/jdbc/src/main/java/com/goit/feature/sql/find_max_projects_client.sql",
+  "findLongestProjectSql": "/Users/romantkachenko/Desktop/goit-dev/04/jdbc/src/main/java/com/goit/feature/sql/find_longest_project.sql",
+  "printProjectPricesSql": "/Users/romantkachenko/Desktop/goit-dev/04/jdbc/src/main/java/com/goit/feature/sql/print_project_prices.sql"
+}
