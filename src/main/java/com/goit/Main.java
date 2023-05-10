@@ -1,12 +1,7 @@
 package com.goit;
 
 import com.goit.feature.db.Database;
-import com.goit.feature.dbservice.DatabaseInitService;
-import com.goit.feature.dbservice.DatabasePopulateService;
 import com.goit.feature.dbservice.DatabaseQueryService;
-import com.goit.feature.dbservice.selection_dto.LongestProject;
-
-import java.util.List;
 
 
 public class Main {

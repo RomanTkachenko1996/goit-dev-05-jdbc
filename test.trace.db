@@ -198,3 +198,13 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: /Users/romantkac
 	at org.h2.mvstore.FileStore.open(FileStore.java:128)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
 	... 14 more
+2023-05-10 17:46:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: This method is not allowed for a prepared statement; use a regular statement instead. [90130-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:303)
+	at com.goit.feature.dbservice.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:30)
+	at com.goit.Main.main(Main.java:11)
