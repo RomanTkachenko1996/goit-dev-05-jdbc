@@ -1,5 +1,5 @@
 CREATE TABLE worker(
-  id BIGINT PRIMARY KEY,
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR CHECK (LENGTH(name) BETWEEN 2 AND 1000),
   birthday DATE CHECK (birthday > '1900-01-01'),
   level VARCHAR NOT NULL CHECK (level IN ('Trainee', 'Junior', 'Middle', 'Senior')),
@@ -7,12 +7,12 @@ CREATE TABLE worker(
 );
 
 CREATE TABLE client(
-  id BIGINT PRIMARY KEY,
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(1000) NOT NULL CHECK (LENGTH(name) BETWEEN 2 AND 1000)
 );
 
 CREATE TABLE project(
-  id BIGINT PRIMARY KEY,
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
   client_id BIGINT,
   FOREIGN KEY (client_id) REFERENCES client(id),
   start_date DATE,

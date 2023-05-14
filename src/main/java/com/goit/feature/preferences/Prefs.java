@@ -20,6 +20,12 @@ public class Prefs {
     public static final String FIND_YOUNGEST_ELDEST_WORKERS_SQL_PATH = "findYoungestEldestWorkersSql";
     public static final String PRINT_PROJECT_PRICES_SQL_PATH = "printProjectPricesSql";
     public static final String DEFAULT_PREFS_FILENAME = "prefs.json";
+    public static final String FILE_PATH_WITH_NEW_WORKERS = "src/main/resources/workers.txt";
+    public static final String FILE_PATH_WITH_NEW_CLIENTS = "src/main/resources/clients.txt";
+    public static final String FILE_PATH_WITH_NEW_PROJECTS = "src/main/resources/projects.txt";
+    public static final String FILE_PATH_WITH_NEW_PROJECT_WORKERS = "src/main/resources/project_worker.txt";
+
+
     private  Map<String,Object> prefs = new HashMap<>();
     public Prefs(){
         this(DEFAULT_PREFS_FILENAME);
