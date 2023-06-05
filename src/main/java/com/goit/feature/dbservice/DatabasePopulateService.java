@@ -1,10 +1,10 @@
 package com.goit.feature.dbservice;
 
 import com.goit.feature.db.Database;
-import com.goit.feature.dbservice.tables_dto.Client;
-import com.goit.feature.dbservice.tables_dto.Project;
-import com.goit.feature.dbservice.tables_dto.ProjectWorker;
-import com.goit.feature.dbservice.tables_dto.Worker;
+import com.goit.feature.dbservice.entity.Client;
+import com.goit.feature.dbservice.entity.Project;
+import com.goit.feature.dbservice.entity.ProjectWorker;
+import com.goit.feature.dbservice.entity.Worker;
 import com.goit.feature.preferences.Prefs;
 
 import java.io.FileNotFoundException;
@@ -14,7 +14,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.sql.Date;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;

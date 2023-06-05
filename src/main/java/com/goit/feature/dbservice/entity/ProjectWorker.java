@@ -1,4 +1,4 @@
-package com.goit.feature.dbservice.tables_dto;
+package com.goit.feature.dbservice.entity;
 
 public class ProjectWorker {
 
